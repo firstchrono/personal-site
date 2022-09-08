@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import Styles from './styles.module.scss';
 
 function Nav() {
@@ -15,6 +14,9 @@ function Nav() {
 			</a>
 			<a className={Styles.link} href="/projects">
 				Posts
+			</a>
+			<a className={Styles.link} href="/contact">
+				Contact
 			</a>
 			<a className={Styles.social} href="https://www.linkedin.com/in/jonathan-stump-90a4368a/">
 				<svg className={Styles.socialicon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

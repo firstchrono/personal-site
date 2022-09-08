@@ -4,7 +4,7 @@ import MainHead from "../components/MainHead.astro";
 import Button from "../components/Button/index.jsx";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
-import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
+import ProjectPreview from "../components/ProjectPreview/index.jsx";
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob("./project/**/*.md");
@@ -146,7 +146,7 @@ const featuredProject = projects[0];
 
 			.invert {
 				position: absolute;
-				color: var(--t-fg);
+				color: var(--t-bg);
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -196,37 +196,30 @@ const featuredProject = projects[0];
 			<div class="gradient"></div>
 			<div class="gradient2"></div>
 			<div class="overlay">
-				<h1 class="title">
-					<small class="subtitle">The personal site of</small>Jon Stump
-				</h1>
+				<h1 class="title">Jon Stump</h1>
 				<div>
 					<span class="role">👩‍💻 DevOps Engineer <span class="invert">👩‍💻 DevOps Engineer</span></span>&nbsp;
 					<span class="role">📷 Photographer <span class="invert">📷 Photographer</span></span>&nbsp;
 				</div>
-				<p class="desc">Something weird goes here.</p>
 			</div>
 		</header>
 		<main class="wrapper mt4 mb4">
+			<div class="section">
+				<h3 class="sectionTitle">Welcome and Hello!</h3>
+				<p class="bio">
+					I’m Jon, and this is my website for my resume, blog, and pictures. It was made using{" "}
+					<a href="https://github.com/withastro/astro" target="_blank" rel="nofollow"> Astro</a>.
+				</p>
+			</div>
 			<div class="grid">
 				<div class="section">
 					<h3 class="sectionTitle">Recent Post</h3>
-					<PortfolioPreview project={featuredProject} />
+					<ProjectPreview project={featuredProject} />
 					<div class="tac mt4">
 						<a href="/projects">
 							<Button>View All</Button>
 						</a>
 					</div>
-				</div>
-				<div class="section">
-					<h3 class="sectionTitle">About me</h3>
-					<p class="bio">
-						<span>Hello!</span> I’m Jon, and this is my website. It was made using{" "}
-						<a href="https://github.com/withastro/astro" target="_blank" rel="nofollow"> Astro</a>,
-						a new way to build static sites. This is just an example template for you to modify.
-					</p>
-					<p>
-						<a href="/resume">Read more</a>
-					</p>
 				</div>
 			</div>
 		</main>

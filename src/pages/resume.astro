@@ -7,20 +7,24 @@ import Nav from "../components/Nav/index.jsx";
 
 <html lang="en">
 	<head>
-		<MainHead title="Jon's Resume" description="Jon's Resume" />
+		<MainHead title="Resume"/>
 		<style lang="scss">
+			.center {
+				display: flex;
+				justify-content: center;
+			}
+
 			.heroImg {
-				max-height: 24rem;
-				object-fit: cover;
-				overflow: hidden;
+				object-fit: scale-down;
 
 				img {
-					width: 100%;
+					width: 50%;
 				}
 			}
 
 			.bio {
 				font-size: var(--f-u1);
+				color: var(--t-bg);
 				line-height: 2;
 			}
 		</style>
@@ -28,23 +32,21 @@ import Nav from "../components/Nav/index.jsx";
 	<body>
 		<Nav />
 		<div class="wrapper">
-			<h1>About Me</h1>
-			<div class="heroImg">
+			<h1 class="center">About Me</h1>
+			<div class="heroImg center">
 				<img
-					width="1400"
-					height="350"
-					src="https://images.unsplash.com/photo-1581977012607-4091712d36f9?auto=format&fit=crop&w=1400&h=350&q=75"
+					src="assets/works/Pittsburgh.jpg"
 				/>
 			</div>
 			<div class="bio wrapper wrapper__readable mt8">
 				<p>
-					Experienced Software and DevOps Engineer from Pittsburgh. If you like my resume and have a unique opportunity, I'd love to chat about it. Please reach out to me via LinkedIn or use the contact form. 
+					Experienced Software and DevOps Engineer from Pittsburgh. If you like my resume and have a unique opportunity, I'd love to chat about it. Please reach out to me via <span><a href="https://www.linkedin.com/in/jonathan-stump-90a4368a/">LinkedIn</a></span> or use the <span><a href="/contact">contact form</a></span>. 
 				</p>
-				<div style="text-align:center;">
-					<a href="https://drive.protonmail.com/urls/A4QX5VV5ZC#OTNGB0rGHOwi">
-						<Button>Download Resume (PDF)</Button>
-					</a>
-				</div>
+			</div>
+			<div class="center">
+				<a href="https://drive.proton.me/urls/8CYTXSPT08#Q0iU1YPkSrT0">
+					<Button>Download Resume (PDF)</Button>
+				</a>
 			</div>
 		</div>
 		<Footer />

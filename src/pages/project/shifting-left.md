@@ -10,6 +10,7 @@ author: Jon
 tags: 
   - devops
   - security
+draft: true
 ---
 
 In late 2021 and early 2022, we saw CVE's for some big players in the tech community. These CVE's have wrecked havoc. While it's near impossible to prevent vulnerabilities and security issues (not that we don't try), the question becomes, "How do we respond to them as they are discovered?".

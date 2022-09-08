@@ -1,0 +1,156 @@
+
+.section {
+	position: relative;
+	padding: 0 80px 150px 80px;
+	z-index: 97;
+	opacity: 1;
+	visibility: visible;
+	@include transition(all 0.6s ease 0s);
+	@media (max-width: 960px) {
+		padding: 0 40px 120px 40px;
+	}
+	@media (max-width: 480px) {
+		padding: 0 20px 120px 20px;
+	}
+	.content {
+		position: relative;
+		.title {
+			position: relative;
+			margin-bottom: 40px;
+			@media (max-width: 400px) {
+				text-align: center;
+			}
+			.title_inner {
+				display: inline-block;
+				vertical-align: middle;
+				text-align: center;
+				position: relative;
+				line-height: 18px;
+				font-size: $default-size;
+				color: $dark-color;
+				text-transform: uppercase;
+				letter-spacing: $extra-letter-spacing;
+				@include transition(all 0.3s ease 0s);
+				@include box-shadow(inset 0 -6px 0px $extra-active-color);
+			}
+		}
+	}
+}
+
+/* 5. Resume */
+@media (max-width: 840px) {
+	.section.resume {
+		.cols {
+			.col.col-md {
+				&:first-child {
+					margin-bottom: 120px;
+				}
+			}
+		}
+	}
+}
+
+.resume-items {
+	.resume-item {
+		position: relative;
+		padding: 0 30px 60px 30px;
+		@media (max-width: 840px) {
+			padding-right: 0px;
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 1px;
+			height: 100%;
+			background: $active-color;
+		}
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			padding-bottom: 0;
+			margin-top: -1px;
+			&:before {
+				display: none;
+			}
+		}
+		.date {
+			position: relative;
+			top: -10px;
+			margin: 0 0 5px 0;
+			display: inline-block;
+			padding: 0 5px;
+			height: 20px;
+			line-height: 18px;
+			font-weight: 500;
+			font-size: $extra-small-size;
+			color: $active-color;
+			border: 1px solid $active-color;
+			&:before {
+				content: '';
+				width: 29px;
+				height: 1px;
+				position: absolute;
+				left: -30px;
+				top: 9px;
+				background: $active-color;
+			}
+		}
+		.name {
+			font-weight: 500;
+			color: $dark-color;
+			margin: 0 0 15px 0;
+		}
+		p {
+			margin: 0;
+		}
+	}
+}
+
+/* 6. Skills */
+.skills {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			padding: 5px 0 30px 0;
+			.name {
+				font-size: $default-size;
+				color: $default-color;
+				font-weight: 400;
+				position: relative;
+				margin: 0 0 9px 0;
+			}
+			.progress {
+				display: block;
+				height: 3px;
+				position: relative;
+				width: 100%;
+				background: $light-color;
+				.percentage {
+					left: 0;
+					top: 0;
+					position: absolute;
+					height: 3px;
+					width: 0%;
+					background: $active-color;
+					@include transition(all 0.3s ease 0s);
+					.percent {
+						position: absolute;
+						top: -27px;
+						right: 0;
+						font-size: $default-size;
+						color: $default-color;
+						font-weight: 400;
+					}
+				}
+			}
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
+}

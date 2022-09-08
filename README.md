@@ -1,12 +1,15 @@
-# Astro Starter Kit: Portfolio
+# My Personal Site
 
-```cmd
-npm init astro -- --template portfolio
-```
+## About
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
+This site was built utilizing [Astro](https://github.com/withastro/astro). It's a static site for my resume/blog/portfolio. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+⚠️ It will not be perfect, I'm not a web dev. This is just something I wanted to have something to play around with and try out new things. ⚠️
+
+### Some of the tech used
+
+- Hosting: [Cloudflare Pages](https://pages.cloudflare.com/)
+- more coming soon
 
 ## 🧞 Commands
 

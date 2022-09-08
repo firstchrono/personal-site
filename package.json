@@ -9,11 +9,13 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/preact": "0.3.2",
-    "astro": "1.0.0-beta.65",
+    "@astrojs/preact": "1.1.0",
+    "@playwright/test": "^1.25.2",
+    "astro": "1.1.7",
     "sass": "1.52.2"
   },
   "dependencies": {
+    "@astrojs/tailwind": "^1.0.0",
     "preact": "10.7.3"
   }
 }

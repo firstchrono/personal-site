@@ -1,0 +1,118 @@
+### Resume [ resume ]
+resume:
+  experience:
+    title: "Experience"
+    items:
+      - year: "2021 - Present"
+        name: "DevOps Engineer - Experlogix Inc"
+        text: "
+        <p>
+        - Implemented Code Security Analysis tooling (TBD on specific tool, in POC now). <br>
+        <br>
+        - Implemented new automation tools to assist with 3rd party packaging (WhiteSource Bolt or Depend-a-Bot). <br>
+        <br>
+        - Migrated from single Windows VM for build server to Linux based VM Scale Sets which decreased cost and increased reliability. <br>
+        <br>
+        - Migrated from 8 Windows VMs for automated test runners to containers which decreased cost and increased reliability. <br>
+        <br>
+        - Implemented retention policies on NuGet packages and Container images which decreased storage costs and simplified usage. <br>
+        <p>
+        "
+
+      - year: "2014 - 2021"
+        name: "Software Engineer - InEight Inc"
+        text: "
+        <p>
+        - Promoted from Technical Engineering Consultant (Oct 2017) and Customer Support Consultant (June 2015). <br>
+        <br>
+        - Implemented Agile Methodology and Git source control into our workflows and process, resulting in faster velocity and more repeatable results. <br>
+        <br>
+        - Technical Lead for over 200 products. <br>
+        <br>
+        - Supported 4-6 products per two week sprint, writing new code, refactoring, or fixing bugs per Product Owner requests. <br>
+        <br>
+        - Implemented Automated Testing (Unit Testing first) with automated builds. To date, we have rolled out the automated testing to approximately 15 – 20% of our code for products, which has reduced our defect count by 20% so far. As the team becomes more confident and comfortable, we will continue to expand the coverage, with an expectation of reaching 80% coverage by 2022. <br>
+        <br>
+        - Managed the team Wiki and have built over 80% of documentation. <br>
+        <br>
+        - Implemented workflow for MSI package into our team and, based upon the successful implementation, then implemented for the core product team as well. <br>
+        <br>
+        - Implemented an automated build system and created numerous internal NuGet packages in a private repository to assist with release process, resulting in a development-hour decrease of 80% for upgrades (3 days to sub 1 day). <br>
+        <br>
+        - Implemented a release pipeline in Azure DevOps with automation in Azure for building QA testing VMs on the fly, reducing overhead and costs in Azure by 20% for our team. <br>
+        <br>
+        - Implemented a mock API web server which allowed QA to test against a mock API and validate custom tools were working prior to sending to client; this resulted in a 40% reduction in defects.
+        </p>
+        "
+
+      - year: "2012 - 2014"
+        name: "Advanced Repair Agent & Covert Agent - Geek Squad"
+        text: "Troubleshot, diagnosed, and repaired phones, tablets, and computers."
+        
+### Skills [ skills ]
+skills:
+  columns:
+    - type: "default" #skills progress type - default, dotted, circles, list
+      title: "Coding Skills"
+      items:
+        - label: "C#"
+          value: "80" #0-100 progress in %
+
+        - label: "Powershell"
+          value: "75" #0-100 progress in %
+
+        - label: "Bash"
+          value: "75" #0-100 progress in %
+        
+        - label: "YAML"
+          value: "70" #0-100 progress in %
+
+        - label: "Python"
+          value: "60" #0-100 progress in %
+
+    - type: "list" #skills progress type - default, dotted, circles, list
+      title: "Knowledge/Skills"
+      items:
+        - label: ".NET (Framework 3.5 and newer, Core 3.0, 5.0)"
+          value: ""
+
+        - label: "Windows (XP+)"
+          value: ""
+
+        - label: "Windows Server (2008R2+)"
+          value: ""
+
+        - label: "Linux (Ubuntu, Fedora, Alpine, OpenSuse, Apache)"
+          value: ""
+
+        - label: "Containerization (Docker)"
+          value: ""
+
+        - label: "Ochestration (Swarm, K8s)"
+          value: ""
+
+        - label: "Terraform"
+          value: ""
+
+        - label: "Azure DevOps"
+          value: ""
+        
+        - label: "Microsoft Azure Cloud (see certifications)"
+          value: ""
+
+        - label: "Agile/Scrum Methodologies"
+          value: ""
+
+        - label: "Git Version Control"
+          value: ""
+
+        - label: "Automated Builds/Pipelines (Azure DevOps, Jenkins)"
+          value: ""
+
+    - type: "certs list"
+      title: "Certifications"
+      items:
+        - label: "Microsoft Certified Azure Fundamentals"
+          image: "assets/img/certs/microsoft-certified-azure-fundamentals.png"
+          text: "Microsoft Certified Azure Fundamentals"
+          link: https://www.credly.com/badges/3ebd05db-fa25-4024-aecc-d69d041e6294/public_url

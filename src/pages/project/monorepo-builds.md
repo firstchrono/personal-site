@@ -9,6 +9,7 @@ author: Jon
 tags: 
   - devops
   - pipelines
+draft: true
 ---
 _Note: This isn't going to be a discussion about the monorepo. You can find plenty of blogs about it and quite frankly, I'm not the right person to discuss the topic._
 

@@ -4,12 +4,13 @@
 	padding-right: 2rem;
 	padding-bottom: 4rem;
 	padding-left: 2rem;
+	color: var(--t-bg);
 }
 
 .byline {
 	display: block;
 	margin-top: 1rem;
-	color: var(--t-subdue);
+	color: var(--t-bg);
 	font-size: var(--f-d2);
 	text-transform: uppercase;
 }

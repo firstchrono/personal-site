@@ -11,6 +11,7 @@ img: /assets/blog/azurePipelines.jpeg
 author: Jon
 tags: 
   - devops
+draft: true
 ---
 
 You're probably here because you don't want to use Microsoft's Hosted Agents for the build pipelines. The reasons might look like:

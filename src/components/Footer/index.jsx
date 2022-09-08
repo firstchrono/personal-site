@@ -4,7 +4,7 @@ import Styles from './styles.module.scss';
 function Footer() {
 	return (
 		<footer className={Styles.footer}>
-			&copy; {new Date().getFullYear()} Jon Stump & Jon Stump Photography
+			&copy; 2009 - {new Date().getFullYear()} Jon Stump & Jon Stump Photography
 		</footer>
 	);
 }

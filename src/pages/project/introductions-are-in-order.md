@@ -8,6 +8,7 @@ img: /assets/blog/welcome.jpg
 author: Jon
 tags:
  - intro
+draft: false
 ---
 
 Welcome! You've apparently stumbled across this website. You're probably asking yourself, “Where am I? How did I get here?”. Well, run away, run as fast as you can. This blog is the ramblings of a madman.
